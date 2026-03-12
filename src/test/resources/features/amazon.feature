@@ -25,4 +25,4 @@ Feature: Add product to cart functionality
       | Fashion         | 
       | electronics     |
       | computers       |
-      | carandmotorbike |
+      | Books           |

@@ -24,8 +24,8 @@ public class Department {
 	public WebElement computersAndAccessories;
 	@FindBy(xpath="//span[text()='Electronics']")
 	public WebElement electronics;
-	@FindBy(xpath="//span[text()='Car & Motorbike']")
-	public WebElement carAndMotorbike;
+	@FindBy(xpath="//span[text()='Beauty']")
+	public WebElement beauty;
 	
 	public void seeMore() {
 		seemore.click();
@@ -38,8 +38,8 @@ public class Department {
 			computersAndAccessories.click();
 		else if(str.equalsIgnoreCase("electronics"))
 			electronics.click();
-		else if(str.equalsIgnoreCase("carandmotorbike"))
-			carAndMotorbike.click();
+		else if(str.equalsIgnoreCase("beauty"))
+			beauty.click();
 		
 	}
 	
