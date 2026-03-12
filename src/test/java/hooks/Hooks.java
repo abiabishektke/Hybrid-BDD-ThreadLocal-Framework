@@ -26,7 +26,7 @@ public class Hooks {
         String browser = prop.getProperty("browser");
         String url = prop.getProperty("url");
 
-        BrowserUtil.setDriver(DriverFactory.initDriver(browser));
+        BrowserUtil.setDriver(DriverFactory.initializeBrowser(browser));
         BrowserUtil.getDriver().get(url);
     }
 
