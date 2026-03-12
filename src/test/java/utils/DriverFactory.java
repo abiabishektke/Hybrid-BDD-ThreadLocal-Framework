@@ -26,6 +26,8 @@ public class DriverFactory {
             chromeOptions.addArguments("--headless=new");
             chromeOptions.addArguments("--disable-gpu");
             chromeOptions.addArguments("--window-size=1920,1080");
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--disable-dev-shm-usage");
 
             driver = new ChromeDriver(chromeOptions);
             break;
